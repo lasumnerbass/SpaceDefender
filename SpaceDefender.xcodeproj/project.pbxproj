@@ -1,0 +1,1015 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		202E4151CCB87378EACE7923 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2BD4888BDE1A40569158377B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5CC18CCF32CE0FF10F71CE3E /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		3EFEB58710FA9386A76062A9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D1B3EE5776984DC5BE64602E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				94D1721B4CC44AFC98A3150F /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				7AF24B8B0D284C98BF236F7F /* PBXTargetDependency */,
+				08FF3A112AA74541BBDE187E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		A6A725F4DBEA7F1E1BE42867 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BF246FFC97AB48608C13CEC5 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				98398F1999F047CEB33CED0A /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06C0DF9C7EEF400BB58922C9 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/PerformanceMonitor.cpp */ = {isa = PBXBuildFile; fileRef = E62588E99AEA4F0AA699BE6C /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/PerformanceMonitor.cpp */; };
+		1092DECCDB8E438B9988CA1E /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/InputManager.hpp */ = {isa = PBXBuildFile; fileRef = 27429664641A4813BBC25985 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/InputManager.hpp */; };
+		219F99D9EE3B402AA3F868EC /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Enemy.hpp */ = {isa = PBXBuildFile; fileRef = CEA111316362415682E45ADC /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Enemy.hpp */; };
+		25366BFD98134CBCBC6E1174 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ExplosionAnimation.hpp */ = {isa = PBXBuildFile; fileRef = C2443F19962E4164A630D5CA /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ExplosionAnimation.hpp */; };
+		2C533ED7AA5042A7B09DDA37 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Enemy.cpp */ = {isa = PBXBuildFile; fileRef = 49D5640D8670461C8FE9B098 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Enemy.cpp */; };
+		2F20BF3641584415A5F55BC0 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Game.hpp */ = {isa = PBXBuildFile; fileRef = D5451CBDBA6C44C8990EBE4F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Game.hpp */; };
+		3A6A6976BDC54889B0BE6C2F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ResourceManager.cpp */ = {isa = PBXBuildFile; fileRef = 1A7849E34F114DE0AE224969 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ResourceManager.cpp */; };
+		3BC4D2AE2C354BA8A717BD76 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/InputManager.cpp */ = {isa = PBXBuildFile; fileRef = EE5780C3AD264165BE175E1D /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/InputManager.cpp */; };
+		4F936B15D237430E9674EC9B /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/PerformanceMonitor.hpp */ = {isa = PBXBuildFile; fileRef = 42874E9665994DB3854C8CD8 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/PerformanceMonitor.hpp */; };
+		62FDEAB17ADA40A4AE72BF55 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Player.hpp */ = {isa = PBXBuildFile; fileRef = 4D035300627645D496D4620A /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Player.hpp */; };
+		7A4D8EACFD3E4AB9969CBD82 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/GameObject.cpp */ = {isa = PBXBuildFile; fileRef = F722AEC617A9474C89992E11 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/GameObject.cpp */; };
+		7CA35CC2D90E4E3891FD04D3 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Player.cpp */ = {isa = PBXBuildFile; fileRef = 012E59C37A8F4BA0848B7332 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Player.cpp */; };
+		7CF3E5AF4CE64A53B50E6011 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Game.cpp */ = {isa = PBXBuildFile; fileRef = 852BF05C66924E0BA4DDE0A1 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Game.cpp */; };
+		7E30F92AE279494DA4E28DC3 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/main.cpp */ = {isa = PBXBuildFile; fileRef = B984E1F3CAE346939AEADC72 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/main.cpp */; };
+		94025FC6289640E5A9E9A037 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Utils.hpp */ = {isa = PBXBuildFile; fileRef = 6003B39A2A434986B565435F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Utils.hpp */; };
+		95113791ED2D4A6FB5E95518 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/AudioSystem.hpp */ = {isa = PBXBuildFile; fileRef = A4C3FB94FFED44E387742F4F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/AudioSystem.hpp */; };
+		96C3CDC7E7AF430D9307011C /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ObjectPool.hpp */ = {isa = PBXBuildFile; fileRef = D6C603280BAD4F01A120B7DA /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ObjectPool.hpp */; };
+		9E0E60FBFE3A4E2B8D80AB67 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ParticleSystem.hpp */ = {isa = PBXBuildFile; fileRef = 76F6015A853F4118893608CC /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ParticleSystem.hpp */; };
+		AE4D14849ABE4CC79D9DFAA4 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Config.hpp */ = {isa = PBXBuildFile; fileRef = 21FE2148098944A2AE27C3C8 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Config.hpp */; };
+		B1E23FC6F99B4DF5B02AB4C7 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ResourceManager.hpp */ = {isa = PBXBuildFile; fileRef = 0CB1D5A4C01A4BCAA559AA60 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ResourceManager.hpp */; };
+		B2D882D84A6B45FA9D2348F5 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ParticleSystem.cpp */ = {isa = PBXBuildFile; fileRef = 699E871B9FB04659AB259E8C /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ParticleSystem.cpp */; };
+		C3E1C2C8C57E4C5B939CDC31 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/GameObject.hpp */ = {isa = PBXBuildFile; fileRef = 19A0B51237224E43BFDC2015 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/GameObject.hpp */; };
+		CB9653B524234F1AA27447E8 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Bullet.hpp */ = {isa = PBXBuildFile; fileRef = 785BF9DFB3D743BF973DC1AE /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Bullet.hpp */; };
+		D4A9C037C04C4427A8A0CEDF /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ExplosionAnimation.cpp */ = {isa = PBXBuildFile; fileRef = F4D2936842AB44319147B491 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ExplosionAnimation.cpp */; };
+		D6CADA95237B4D3CBAB8E616 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4CB6F6BF05B1480A93B52C07 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/CMakeLists.txt */; };
+		DF2583E4C3924645895EAFFA /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/AudioSystem.cpp */ = {isa = PBXBuildFile; fileRef = 997B72C9596B43FCBFB5250F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/AudioSystem.cpp */; };
+		F5A2E5DD691E45D99337A838 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Bullet.cpp */ = {isa = PBXBuildFile; fileRef = 8BE7DE0505F14525AEE17A2F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Bullet.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		08042CD8CA564E8FB55F97D1 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		674BACC76AE146BDB0CA2F7C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B30763D4FF5940DA8DDCFCEE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D0C8EA55A9FE4F23A4E93F92 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		15571C2F51174F93A551B48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2316F03D674DCDAE891EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202E4151CCB87378EACE7923;
+			remoteInfo = ZERO_CHECK;
+		};
+		67E6456F72824D9BBE829093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2316F03D674DCDAE891EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EFEB58710FA9386A76062A9;
+			remoteInfo = ALL_BUILD;
+		};
+		E9BAE0174381432EACCCA95E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2316F03D674DCDAE891EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 132AD4452B7F6D68950FC81B;
+			remoteInfo = SpaceDefender;
+		};
+		FA6FE311F3194EB78FDBF590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2316F03D674DCDAE891EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202E4151CCB87378EACE7923;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012E59C37A8F4BA0848B7332 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Player.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Player.cpp; path = src/Player.cpp; sourceTree = SOURCE_ROOT; };
+		0CB1D5A4C01A4BCAA559AA60 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ResourceManager.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ResourceManager.hpp; path = include/ResourceManager.hpp; sourceTree = SOURCE_ROOT; };
+		19A0B51237224E43BFDC2015 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/GameObject.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GameObject.hpp; path = include/GameObject.hpp; sourceTree = SOURCE_ROOT; };
+		1A7849E34F114DE0AE224969 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ResourceManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ResourceManager.cpp; path = src/ResourceManager.cpp; sourceTree = SOURCE_ROOT; };
+		21FE2148098944A2AE27C3C8 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Config.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Config.hpp; path = include/Config.hpp; sourceTree = SOURCE_ROOT; };
+		22A85C3BC4A640BAA8594C9C /* SpaceDefender */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SpaceDefender; sourceTree = BUILT_PRODUCTS_DIR; };
+		27429664641A4813BBC25985 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/InputManager.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = InputManager.hpp; path = include/InputManager.hpp; sourceTree = SOURCE_ROOT; };
+		2A15F065C49949EBB522C51E /* /Users/courtneybass/MSD/Day_22/SpaceDefender/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		42874E9665994DB3854C8CD8 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/PerformanceMonitor.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = PerformanceMonitor.hpp; path = include/PerformanceMonitor.hpp; sourceTree = SOURCE_ROOT; };
+		49D5640D8670461C8FE9B098 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Enemy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Enemy.cpp; path = src/Enemy.cpp; sourceTree = SOURCE_ROOT; };
+		4CB6F6BF05B1480A93B52C07 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4D035300627645D496D4620A /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Player.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Player.hpp; path = include/Player.hpp; sourceTree = SOURCE_ROOT; };
+		6003B39A2A434986B565435F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Utils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Utils.hpp; path = include/Utils.hpp; sourceTree = SOURCE_ROOT; };
+		699E871B9FB04659AB259E8C /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ParticleSystem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ParticleSystem.cpp; path = src/ParticleSystem.cpp; sourceTree = SOURCE_ROOT; };
+		76F6015A853F4118893608CC /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ParticleSystem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ParticleSystem.hpp; path = include/ParticleSystem.hpp; sourceTree = SOURCE_ROOT; };
+		785BF9DFB3D743BF973DC1AE /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Bullet.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Bullet.hpp; path = include/Bullet.hpp; sourceTree = SOURCE_ROOT; };
+		852BF05C66924E0BA4DDE0A1 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Game.cpp; path = src/Game.cpp; sourceTree = SOURCE_ROOT; };
+		8BE7DE0505F14525AEE17A2F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Bullet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Bullet.cpp; path = src/Bullet.cpp; sourceTree = SOURCE_ROOT; };
+		997B72C9596B43FCBFB5250F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/AudioSystem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioSystem.cpp; path = src/AudioSystem.cpp; sourceTree = SOURCE_ROOT; };
+		A4C3FB94FFED44E387742F4F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/AudioSystem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = AudioSystem.hpp; path = include/AudioSystem.hpp; sourceTree = SOURCE_ROOT; };
+		B984E1F3CAE346939AEADC72 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		C2443F19962E4164A630D5CA /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ExplosionAnimation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ExplosionAnimation.hpp; path = include/ExplosionAnimation.hpp; sourceTree = SOURCE_ROOT; };
+		CEA111316362415682E45ADC /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Enemy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Enemy.hpp; path = include/Enemy.hpp; sourceTree = SOURCE_ROOT; };
+		D5451CBDBA6C44C8990EBE4F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Game.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Game.hpp; path = include/Game.hpp; sourceTree = SOURCE_ROOT; };
+		D6C603280BAD4F01A120B7DA /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ObjectPool.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ObjectPool.hpp; path = include/ObjectPool.hpp; sourceTree = SOURCE_ROOT; };
+		E62588E99AEA4F0AA699BE6C /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/PerformanceMonitor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PerformanceMonitor.cpp; path = src/PerformanceMonitor.cpp; sourceTree = SOURCE_ROOT; };
+		EE5780C3AD264165BE175E1D /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/InputManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = InputManager.cpp; path = src/InputManager.cpp; sourceTree = SOURCE_ROOT; };
+		F4D2936842AB44319147B491 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ExplosionAnimation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ExplosionAnimation.cpp; path = src/ExplosionAnimation.cpp; sourceTree = SOURCE_ROOT; };
+		F722AEC617A9474C89992E11 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/GameObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GameObject.cpp; path = src/GameObject.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D5CEF15A6F49A09E30C989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0657645B81CA4C71B2B3EA3F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				5DFB5B1476074188A1C2828C /* CMake Rules */,
+				2A15F065C49949EBB522C51E /* /Users/courtneybass/MSD/Day_22/SpaceDefender/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		335C9F934A1046B89B009265 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A85C3BC4A640BAA8594C9C /* SpaceDefender */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DFB5B1476074188A1C2828C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6133BB0F710B468997AD3592 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4C3FB94FFED44E387742F4F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/AudioSystem.hpp */,
+				785BF9DFB3D743BF973DC1AE /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Bullet.hpp */,
+				21FE2148098944A2AE27C3C8 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Config.hpp */,
+				CEA111316362415682E45ADC /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Enemy.hpp */,
+				C2443F19962E4164A630D5CA /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ExplosionAnimation.hpp */,
+				D5451CBDBA6C44C8990EBE4F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Game.hpp */,
+				19A0B51237224E43BFDC2015 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/GameObject.hpp */,
+				27429664641A4813BBC25985 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/InputManager.hpp */,
+				D6C603280BAD4F01A120B7DA /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ObjectPool.hpp */,
+				76F6015A853F4118893608CC /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ParticleSystem.hpp */,
+				42874E9665994DB3854C8CD8 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/PerformanceMonitor.hpp */,
+				4D035300627645D496D4620A /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Player.hpp */,
+				0CB1D5A4C01A4BCAA559AA60 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/ResourceManager.hpp */,
+				6003B39A2A434986B565435F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/include/Utils.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		81F6792181624BE88A6053B3 /* SpaceDefender */ = {
+			isa = PBXGroup;
+			children = (
+				6133BB0F710B468997AD3592 /* Header Files */,
+				DD8CA0C84A384895ACE605C6 /* Source Files */,
+				4CB6F6BF05B1480A93B52C07 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/CMakeLists.txt */,
+			);
+			name = SpaceDefender;
+			sourceTree = "<group>";
+		};
+		9ED3B28475644FD1AC7D3917 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DD8CA0C84A384895ACE605C6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				997B72C9596B43FCBFB5250F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/AudioSystem.cpp */,
+				8BE7DE0505F14525AEE17A2F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Bullet.cpp */,
+				49D5640D8670461C8FE9B098 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Enemy.cpp */,
+				F4D2936842AB44319147B491 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ExplosionAnimation.cpp */,
+				852BF05C66924E0BA4DDE0A1 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Game.cpp */,
+				F722AEC617A9474C89992E11 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/GameObject.cpp */,
+				EE5780C3AD264165BE175E1D /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/InputManager.cpp */,
+				699E871B9FB04659AB259E8C /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ParticleSystem.cpp */,
+				E62588E99AEA4F0AA699BE6C /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/PerformanceMonitor.cpp */,
+				012E59C37A8F4BA0848B7332 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Player.cpp */,
+				1A7849E34F114DE0AE224969 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ResourceManager.cpp */,
+				B984E1F3CAE346939AEADC72 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E9890BDFB69D415082547FAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F694815EFB4B43A5AFED6BE6 = {
+			isa = PBXGroup;
+			children = (
+				81F6792181624BE88A6053B3 /* SpaceDefender */,
+				0657645B81CA4C71B2B3EA3F /* ALL_BUILD */,
+				335C9F934A1046B89B009265 /* Products */,
+				E9890BDFB69D415082547FAB /* Frameworks */,
+				9ED3B28475644FD1AC7D3917 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		132AD4452B7F6D68950FC81B /* SpaceDefender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15C7C7A8249426A985DF64B /* Build configuration list for PBXNativeTarget "SpaceDefender" */;
+			buildPhases = (
+				CBE6E261305646D2BFCF2983 /* Sources */,
+				18D5CEF15A6F49A09E30C989 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B396420D2F7F448FA1C2D6AF /* PBXTargetDependency */,
+			);
+			name = SpaceDefender;
+			productName = SpaceDefender;
+			productReference = 22A85C3BC4A640BAA8594C9C /* SpaceDefender */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC2316F03D674DCDAE891EC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = C8CBE634246D42278954A605 /* Build configuration list for PBXProject "SpaceDefender" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B30763D4FF5940DA8DDCFCEE /* Debug */,
+				674BACC76AE146BDB0CA2F7C /* Release */,
+				08042CD8CA564E8FB55F97D1 /* MinSizeRel */,
+				D0C8EA55A9FE4F23A4E93F92 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F694815EFB4B43A5AFED6BE6;
+			projectDirPath = /Users/courtneybass/MSD/Day_22/SpaceDefender;
+			projectRoot = "";
+			targets = (
+				3EFEB58710FA9386A76062A9 /* ALL_BUILD */,
+				A6A725F4DBEA7F1E1BE42867 /* install */,
+				132AD4452B7F6D68950FC81B /* SpaceDefender */,
+				202E4151CCB87378EACE7923 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5CC18CCF32CE0FF10F71CE3E /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode
+  make -f /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode
+  make -f /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode
+  make -f /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode
+  make -f /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		94D1721B4CC44AFC98A3150F /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBE6E261305646D2BFCF2983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2583E4C3924645895EAFFA /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/AudioSystem.cpp */,
+				F5A2E5DD691E45D99337A838 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Bullet.cpp */,
+				2C533ED7AA5042A7B09DDA37 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Enemy.cpp */,
+				D4A9C037C04C4427A8A0CEDF /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ExplosionAnimation.cpp */,
+				7CF3E5AF4CE64A53B50E6011 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Game.cpp */,
+				7A4D8EACFD3E4AB9969CBD82 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/GameObject.cpp */,
+				3BC4D2AE2C354BA8A717BD76 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/InputManager.cpp */,
+				B2D882D84A6B45FA9D2348F5 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ParticleSystem.cpp */,
+				06C0DF9C7EEF400BB58922C9 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/PerformanceMonitor.cpp */,
+				7CA35CC2D90E4E3891FD04D3 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/Player.cpp */,
+				3A6A6976BDC54889B0BE6C2F /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/ResourceManager.cpp */,
+				7E30F92AE279494DA4E28DC3 /* /Users/courtneybass/MSD/Day_22/SpaceDefender/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08FF3A112AA74541BBDE187E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202E4151CCB87378EACE7923 /* ZERO_CHECK */;
+			targetProxy = FA6FE311F3194EB78FDBF590 /* PBXContainerItemProxy */;
+		};
+		7AF24B8B0D284C98BF236F7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 132AD4452B7F6D68950FC81B /* SpaceDefender */;
+			targetProxy = E9BAE0174381432EACCCA95E /* PBXContainerItemProxy */;
+		};
+		98398F1999F047CEB33CED0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EFEB58710FA9386A76062A9 /* ALL_BUILD */;
+			targetProxy = 67E6456F72824D9BBE829093 /* PBXContainerItemProxy */;
+		};
+		B396420D2F7F448FA1C2D6AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202E4151CCB87378EACE7923 /* ZERO_CHECK */;
+			targetProxy = 15571C2F51174F93A551B48F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		006B709572154477B40DDB43 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		04709FC1874E499AB15F8957 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		152A9519C5E9471D8039583C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/courtneybass/MSD/Day_22/SpaceDefender/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/courtneybass/MSD/Day_22/SpaceDefender/include,/opt/homebrew/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/opt/homebrew/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' -Wall -Wextra -pedantic ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lsfml-graphics","-lsfml-audio","-lsfml-window","-lsfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SpaceDefender;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/build/SpaceDefender.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1E047583E5224ADCABF73A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/build;
+			};
+			name = Release;
+		};
+		1FD60F8A77D5469487AD0E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = "";
+				SYMROOT = /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/build;
+			};
+			name = Debug;
+		};
+		23833A55C29B44A1868EB374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2844A76A940641FEA8001FEB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		40D2199093074D61BD1130A4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		43613639695D49D4BB16B6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7A39067A748E42F59F4CE712 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		81DF1A8ADE5649DB9A42DE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		91AA0F3B87074DDC9942A936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9A5B9B2374FD44779B8A7157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/courtneybass/MSD/Day_22/SpaceDefender/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/courtneybass/MSD/Day_22/SpaceDefender/include,/opt/homebrew/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/opt/homebrew/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DDEBUG '-std=gnu++20' -Wall -Wextra -pedantic ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lsfml-graphics","-lsfml-audio","-lsfml-window","-lsfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SpaceDefender;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/build/SpaceDefender.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A192C1B7C0424CF483493A75 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		AAB79DCA78024395AE2A66C6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C9E096CE0F9F4343BA2E4715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/courtneybass/MSD/Day_22/SpaceDefender/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/courtneybass/MSD/Day_22/SpaceDefender/include,/opt/homebrew/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/opt/homebrew/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' -Wall -Wextra -pedantic ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lsfml-graphics","-lsfml-audio","-lsfml-window","-lsfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SpaceDefender;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/build/SpaceDefender.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CC63C5AE901D456BBB70FBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D5A96A00B290426BB6BFEE9A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DAE4195316B24520B181F0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E363824AF0B6449B94E1683C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/courtneybass/MSD/Day_22/SpaceDefender/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/courtneybass/MSD/Day_22/SpaceDefender/include,/opt/homebrew/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/opt/homebrew/lib,"$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/opt/homebrew/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/opt/homebrew/lib,"$(inherited)");
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++20' -Wall -Wextra -pedantic ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lsfml-graphics","-lsfml-audio","-lsfml-window","-lsfml-system","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SpaceDefender;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/courtneybass/MSD/Day_22/SpaceDefender/build_xcode/build/SpaceDefender.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD4888BDE1A40569158377B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23833A55C29B44A1868EB374 /* Debug */,
+				DAE4195316B24520B181F0A0 /* Release */,
+				2844A76A940641FEA8001FEB /* MinSizeRel */,
+				D5A96A00B290426BB6BFEE9A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BF246FFC97AB48608C13CEC5 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91AA0F3B87074DDC9942A936 /* Debug */,
+				81DF1A8ADE5649DB9A42DE8F /* Release */,
+				04709FC1874E499AB15F8957 /* MinSizeRel */,
+				006B709572154477B40DDB43 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C15C7C7A8249426A985DF64B /* Build configuration list for PBXNativeTarget "SpaceDefender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5B9B2374FD44779B8A7157 /* Debug */,
+				C9E096CE0F9F4343BA2E4715 /* Release */,
+				152A9519C5E9471D8039583C /* MinSizeRel */,
+				E363824AF0B6449B94E1683C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8CBE634246D42278954A605 /* Build configuration list for PBXProject "SpaceDefender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD60F8A77D5469487AD0E72 /* Debug */,
+				1E047583E5224ADCABF73A0C /* Release */,
+				A192C1B7C0424CF483493A75 /* MinSizeRel */,
+				40D2199093074D61BD1130A4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1B3EE5776984DC5BE64602E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43613639695D49D4BB16B6AA /* Debug */,
+				CC63C5AE901D456BBB70FBAA /* Release */,
+				AAB79DCA78024395AE2A66C6 /* MinSizeRel */,
+				7A39067A748E42F59F4CE712 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC2316F03D674DCDAE891EC8 /* Project object */;
+}
