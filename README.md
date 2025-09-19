@@ -7,7 +7,12 @@
 
 A modern, high-performance 2D space shooter game built with C++20 and SFML. Features advanced particle systems, object pooling, audio integration, and a sophisticated build system that seamlessly integrates CMake with Xcode.
 
-![Space Defender Screenshot](https://via.placeholder.com/800x400/000000/FFFFFF?text=Space+Defender+Game+Screenshot)
+## 📸 Screenshots
+
+| Main Menu | Gameplay | Game Over |
+|-----------|----------|----------|
+| ![Main Menu](screenshots/main_menu.png) | ![Gameplay](screenshots/gameplay.png) | ![Game Over](screenshots/game_over.png) |
+| Beautiful space-themed main menu with controls | Intense space combat with particle effects | Game over screen with score tracking |
 
 ## ✨ Features
 
